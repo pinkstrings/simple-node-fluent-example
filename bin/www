@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+ffmpeg_tests = require('../ffmpeg-tests.js');
+ffmpeg_tests();

@@ -1,0 +1,12 @@
+{
+  "name": "simple-node-fluent-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+  	"clean": "rm ./public/foo2.mp3",
+    "start": "NODE_ENV=production node ./bin/www"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.0.0-rc3"
+  }
+}
